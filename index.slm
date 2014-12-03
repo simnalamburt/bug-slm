@@ -1,0 +1,6 @@
+doctype html
+html ng-app="whatever"
+  body ng-controller="GreatCtrl"
+    div ng-repeat="memo in memos | filter track by memo.id"
+      h1 Some wonderful slm codes go here
+      p But things went south
